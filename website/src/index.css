@@ -1,6 +1,10 @@
 *{padding: 0px; margin: 0px; box-sizing: border-box;}
+.col{padding: 0px; margin: 0px;}
+.row{padding: 0px; margin: 0px;}
+.collapsible-btn{flex-direction: row;}
+.bgcolor-ef{background: #efefef;}
 
-.studio-left, .studio-main, .studio-right{border: 1px solid black; padding: 10px; float: left;}
-.studio-left, .studio-right{width: 25%; }
-.studio-main{width: 50%;}
-.clear{clear: both;}
+#Navbar div{padding: 10px;}
+#Landing{padding: 10px;}
+#Landing div{padding: 10px 0px;}
+#Footer{background: #efefef; padding: 25px 10px;}

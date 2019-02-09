@@ -4,17 +4,19 @@ export default class Navbar extends Component {
     render() {
         return (
             <div id="Navbar">
-                <nav>
-                    <div className="site-name">
+                <nav className="border row flex-middle">
+                    <div className="nav-brand">
                         <h3>Truepage</h3>
                     </div>
-                    <div className="site-menu">
-                        <ul>
-                            <li>Dashboard</li>
-                            <li>Postbox</li>
-                            <li>Notifications</li>
-                            <li>Account</li>
-                        </ul>
+                    <div className="collapsible">
+                        <div className="collapsible-body">
+                            <ul className="inline">
+                                <li>Dashboard</li>
+                                <li>Postbox</li>
+                                <li>Notifications</li>
+                                <li>Account</li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>
