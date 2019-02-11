@@ -2,7 +2,13 @@
 .col{padding: 0px; margin: 0px;}
 .row{padding: 0px; margin: 0px;}
 .collapsible-btn{flex-direction: row;}
-.bgcolor-ef{background: #efefef;}
+.bg-ff{background: #fff;}
+.bg-ef{background: #efefef;}
+.padding-0{padding: 0px; }
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+.studio-box{padding: 10px; }
+.w-100{width: 100%;}
 
 #Navbar div{padding: 10px;}
 #Landing{padding: 10px;}
